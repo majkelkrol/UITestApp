@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7B0D0DBF294DCC4700C458B8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0D0DBE294DCC4700C458B8 /* LoginViewController.swift */; };
 		7B0D0DC1294DCD4C00C458B8 /* UserViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0D0DC0294DCD4C00C458B8 /* UserViewConroller.swift */; };
+		7B0D0DC3294DD21F00C458B8 /* DarkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0D0DC2294DD21F00C458B8 /* DarkMode.swift */; };
 		7B5DFAB9294DC49C006A30F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5DFAB8294DC49C006A30F9 /* AppDelegate.swift */; };
 		7B5DFABB294DC49C006A30F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5DFABA294DC49C006A30F9 /* SceneDelegate.swift */; };
 		7B5DFABD294DC49C006A30F9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5DFABC294DC49C006A30F9 /* LoginViewController.swift */; };
@@ -32,6 +33,7 @@
 		7B0D0DB2294DCC0F00C458B8 /* UITestApp_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITestApp_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B0D0DBE294DCC4700C458B8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		7B0D0DC0294DCD4C00C458B8 /* UserViewConroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewConroller.swift; sourceTree = "<group>"; };
+		7B0D0DC2294DD21F00C458B8 /* DarkMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkMode.swift; sourceTree = "<group>"; };
 		7B5DFAB5294DC49C006A30F9 /* UITestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B5DFAB8294DC49C006A30F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B5DFABA294DC49C006A30F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 		7B0D0DB3294DCC0F00C458B8 /* UITestApp_UITests */ = {
 			isa = PBXGroup;
 			children = (
+				7B0D0DC2294DD21F00C458B8 /* DarkMode.swift */,
 				7B0D0DBE294DCC4700C458B8 /* LoginViewController.swift */,
 				7B0D0DC0294DCD4C00C458B8 /* UserViewConroller.swift */,
 			);
@@ -205,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B0D0DC3294DD21F00C458B8 /* DarkMode.swift in Sources */,
 				7B0D0DC1294DCD4C00C458B8 /* UserViewConroller.swift in Sources */,
 				7B0D0DBF294DCC4700C458B8 /* LoginViewController.swift in Sources */,
 			);
