@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B0D0DBF294DCC4700C458B8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0D0DBE294DCC4700C458B8 /* LoginViewController.swift */; };
 		7B5DFAB9294DC49C006A30F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5DFAB8294DC49C006A30F9 /* AppDelegate.swift */; };
 		7B5DFABB294DC49C006A30F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5DFABA294DC49C006A30F9 /* SceneDelegate.swift */; };
 		7B5DFABD294DC49C006A30F9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5DFABC294DC49C006A30F9 /* LoginViewController.swift */; };
@@ -16,7 +17,19 @@
 		7B5DFACD294DC89F006A30F9 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5DFACC294DC89F006A30F9 /* UserViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7B0D0DB8294DCC0F00C458B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B5DFAAD294DC49C006A30F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B5DFAB4294DC49C006A30F9;
+			remoteInfo = UITestApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		7B0D0DB2294DCC0F00C458B8 /* UITestApp_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITestApp_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B0D0DBE294DCC4700C458B8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		7B5DFAB5294DC49C006A30F9 /* UITestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B5DFAB8294DC49C006A30F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B5DFABA294DC49C006A30F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,6 +42,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7B0D0DAF294DCC0F00C458B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7B5DFAB2294DC49C006A30F9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -39,10 +59,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B0D0DB3294DCC0F00C458B8 /* UITestApp_UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B0D0DBE294DCC4700C458B8 /* LoginViewController.swift */,
+			);
+			path = UITestApp_UITests;
+			sourceTree = "<group>";
+		};
 		7B5DFAAC294DC49C006A30F9 = {
 			isa = PBXGroup;
 			children = (
 				7B5DFAB7294DC49C006A30F9 /* UITestApp */,
+				7B0D0DB3294DCC0F00C458B8 /* UITestApp_UITests */,
 				7B5DFAB6294DC49C006A30F9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				7B5DFAB5294DC49C006A30F9 /* UITestApp.app */,
+				7B0D0DB2294DCC0F00C458B8 /* UITestApp_UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +103,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7B0D0DB1294DCC0F00C458B8 /* UITestApp_UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B0D0DBC294DCC0F00C458B8 /* Build configuration list for PBXNativeTarget "UITestApp_UITests" */;
+			buildPhases = (
+				7B0D0DAE294DCC0F00C458B8 /* Sources */,
+				7B0D0DAF294DCC0F00C458B8 /* Frameworks */,
+				7B0D0DB0294DCC0F00C458B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B0D0DB9294DCC0F00C458B8 /* PBXTargetDependency */,
+			);
+			name = UITestApp_UITests;
+			productName = UITestApp_UITests;
+			productReference = 7B0D0DB2294DCC0F00C458B8 /* UITestApp_UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		7B5DFAB4294DC49C006A30F9 /* UITestApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B5DFAC9294DC49D006A30F9 /* Build configuration list for PBXNativeTarget "UITestApp" */;
@@ -100,6 +148,11 @@
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
+					7B0D0DB1294DCC0F00C458B8 = {
+						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
+						TestTargetID = 7B5DFAB4294DC49C006A30F9;
+					};
 					7B5DFAB4294DC49C006A30F9 = {
 						CreatedOnToolsVersion = 14.1;
 					};
@@ -119,11 +172,19 @@
 			projectRoot = "";
 			targets = (
 				7B5DFAB4294DC49C006A30F9 /* UITestApp */,
+				7B0D0DB1294DCC0F00C458B8 /* UITestApp_UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7B0D0DB0294DCC0F00C458B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7B5DFAB3294DC49C006A30F9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -137,6 +198,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7B0D0DAE294DCC0F00C458B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B0D0DBF294DCC4700C458B8 /* LoginViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7B5DFAB1294DC49C006A30F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -149,6 +218,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B0D0DB9294DCC0F00C458B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B5DFAB4294DC49C006A30F9 /* UITestApp */;
+			targetProxy = 7B0D0DB8294DCC0F00C458B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7B5DFABE294DC49C006A30F9 /* Main.storyboard */ = {
@@ -170,6 +247,55 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		7B0D0DBA294DCC0F00C458B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JVCY6LZ93U;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Majkel.UITestApp-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "UITestApp_UITests/UITestApp_UITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UITestApp;
+			};
+			name = Debug;
+		};
+		7B0D0DBB294DCC0F00C458B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JVCY6LZ93U;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Majkel.UITestApp-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "UITestApp_UITests/UITestApp_UITests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UITestApp;
+			};
+			name = Release;
+		};
 		7B5DFAC7294DC49D006A30F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -343,6 +469,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7B0D0DBC294DCC0F00C458B8 /* Build configuration list for PBXNativeTarget "UITestApp_UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B0D0DBA294DCC0F00C458B8 /* Debug */,
+				7B0D0DBB294DCC0F00C458B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7B5DFAB0294DC49C006A30F9 /* Build configuration list for PBXProject "UITestApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
